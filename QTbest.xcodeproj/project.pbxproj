@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E002D741C5B2D5200BF15EC /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E002D731C5B2D5200BF15EC /* MainTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		6EB2EC191C5B122A002688F7 /* HomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2EC181C5B122A002688F7 /* HomePageVC.m */; settings = {ASSET_TAGS = (); }; };
+		6EB2EC1C1C5B1247002688F7 /* ClassifyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2EC1B1C5B1247002688F7 /* ClassifyVC.m */; settings = {ASSET_TAGS = (); }; };
+		6EB2EC1F1C5B1261002688F7 /* ShopCarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2EC1E1C5B1261002688F7 /* ShopCarVC.m */; settings = {ASSET_TAGS = (); }; };
+		6EB2EC221C5B1284002688F7 /* MineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB2EC211C5B1284002688F7 /* MineVC.m */; settings = {ASSET_TAGS = (); }; };
 		6ED6BF3B1C5B09E700F5A8C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6BF3A1C5B09E700F5A8C5 /* main.m */; };
 		6ED6BF3E1C5B09E700F5A8C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6BF3D1C5B09E700F5A8C5 /* AppDelegate.m */; };
 		6ED6BF411C5B09E700F5A8C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED6BF401C5B09E700F5A8C5 /* ViewController.m */; };
@@ -35,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E002D721C5B2D5200BF15EC /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		6E002D731C5B2D5200BF15EC /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		6EB2EC171C5B122A002688F7 /* HomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageVC.h; sourceTree = "<group>"; };
+		6EB2EC181C5B122A002688F7 /* HomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageVC.m; sourceTree = "<group>"; };
+		6EB2EC1A1C5B1246002688F7 /* ClassifyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyVC.h; sourceTree = "<group>"; };
+		6EB2EC1B1C5B1247002688F7 /* ClassifyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyVC.m; sourceTree = "<group>"; };
+		6EB2EC1D1C5B1261002688F7 /* ShopCarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarVC.h; sourceTree = "<group>"; };
+		6EB2EC1E1C5B1261002688F7 /* ShopCarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarVC.m; sourceTree = "<group>"; };
+		6EB2EC201C5B1284002688F7 /* MineVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineVC.h; sourceTree = "<group>"; };
+		6EB2EC211C5B1284002688F7 /* MineVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineVC.m; sourceTree = "<group>"; };
 		6ED6BF361C5B09E700F5A8C5 /* QTbest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTbest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ED6BF3A1C5B09E700F5A8C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6ED6BF3C1C5B09E700F5A8C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +93,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EB2EC0F1C5B1098002688F7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6EB2EC141C5B11F3002688F7 /* HomePageVC */,
+				6EB2EC131C5B11F3002688F7 /* ClassifyVC */,
+				6EB2EC161C5B11F3002688F7 /* ShopCarVC */,
+				6EB2EC151C5B11F3002688F7 /* MineVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6EB2EC131C5B11F3002688F7 /* ClassifyVC */ = {
+			isa = PBXGroup;
+			children = (
+				6EB2EC1A1C5B1246002688F7 /* ClassifyVC.h */,
+				6EB2EC1B1C5B1247002688F7 /* ClassifyVC.m */,
+			);
+			path = ClassifyVC;
+			sourceTree = "<group>";
+		};
+		6EB2EC141C5B11F3002688F7 /* HomePageVC */ = {
+			isa = PBXGroup;
+			children = (
+				6EB2EC171C5B122A002688F7 /* HomePageVC.h */,
+				6EB2EC181C5B122A002688F7 /* HomePageVC.m */,
+			);
+			path = HomePageVC;
+			sourceTree = "<group>";
+		};
+		6EB2EC151C5B11F3002688F7 /* MineVC */ = {
+			isa = PBXGroup;
+			children = (
+				6EB2EC201C5B1284002688F7 /* MineVC.h */,
+				6EB2EC211C5B1284002688F7 /* MineVC.m */,
+			);
+			path = MineVC;
+			sourceTree = "<group>";
+		};
+		6EB2EC161C5B11F3002688F7 /* ShopCarVC */ = {
+			isa = PBXGroup;
+			children = (
+				6EB2EC1D1C5B1261002688F7 /* ShopCarVC.h */,
+				6EB2EC1E1C5B1261002688F7 /* ShopCarVC.m */,
+			);
+			path = ShopCarVC;
+			sourceTree = "<group>";
+		};
 		6ED6BF2D1C5B09E700F5A8C5 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +165,9 @@
 			children = (
 				6ED6BF3C1C5B09E700F5A8C5 /* AppDelegate.h */,
 				6ED6BF3D1C5B09E700F5A8C5 /* AppDelegate.m */,
+				6E002D721C5B2D5200BF15EC /* MainTabBarController.h */,
+				6E002D731C5B2D5200BF15EC /* MainTabBarController.m */,
+				6EB2EC0F1C5B1098002688F7 /* ViewController */,
 				6ED6BF3F1C5B09E700F5A8C5 /* ViewController.h */,
 				6ED6BF401C5B09E700F5A8C5 /* ViewController.m */,
 				6ED6BF421C5B09E700F5A8C5 /* Main.storyboard */,
@@ -272,6 +337,11 @@
 			files = (
 				6ED6BF411C5B09E700F5A8C5 /* ViewController.m in Sources */,
 				6ED6BF3E1C5B09E700F5A8C5 /* AppDelegate.m in Sources */,
+				6EB2EC191C5B122A002688F7 /* HomePageVC.m in Sources */,
+				6EB2EC1F1C5B1261002688F7 /* ShopCarVC.m in Sources */,
+				6EB2EC1C1C5B1247002688F7 /* ClassifyVC.m in Sources */,
+				6EB2EC221C5B1284002688F7 /* MineVC.m in Sources */,
+				6E002D741C5B2D5200BF15EC /* MainTabBarController.m in Sources */,
 				6ED6BF3B1C5B09E700F5A8C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +566,7 @@
 				6ED6BF651C5B09E700F5A8C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ED6BF661C5B09E700F5A8C5 /* Build configuration list for PBXNativeTarget "QTbestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +575,7 @@
 				6ED6BF681C5B09E700F5A8C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ED6BF691C5B09E700F5A8C5 /* Build configuration list for PBXNativeTarget "QTbestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +584,7 @@
 				6ED6BF6B1C5B09E700F5A8C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
